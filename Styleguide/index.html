@@ -19,7 +19,6 @@
 				<li><a href="#icons">Ikoner</a></li>
 				<li><a href="#typography">Typografi</a></li>
 				<li><a href="#btns">Knapper</a></li>
-				<li><a href="#forms">Formler</a></li>
 			</ul>
 		</nav>
 	</header>
@@ -94,17 +93,17 @@
 					<p class="code">
 						<code class="vcenter flex">
 
+					</code>
+
+					<p class="code">
+						<code class="vcenter flex">
+
 						</code>
 
-						<p class="code">
-							<code class="vcenter flex">
+					<p class="code">
+						<code class="vcenter flex">
 
-							</code>
-
-							<p class="code">
-								<code class="vcenter flex">
-
-								</code>
+						</code>
 			</aside>
 
 			<aside>
@@ -138,7 +137,7 @@
 		</article>
 		<footer>
 			<p>
-				Sådan skal de bruges:
+				Sådan skal de bruges: Farverne skal bruges som tekstfarver, knapfarver, baggrundsfarver o.s.v
 			</p>
 
 		</footer>
@@ -259,17 +258,19 @@
 				<hr>
 				<p class="code">
 					<code class="center flex">
-
+						&#x3C;h1&#x3E;&#x3C;/h1&#x3E;
 					</code>
 				</p>
 
 				<p class="code">
-
+					<code class="center flex">
+						&#x3C;h2&#x3E;&#x3C;/h2&#x3E;
+					</code>
 				</p>
 
 				<p class="code">
 					<code class="center flex">
-
+						&#x3C;p&#x3E;&#x3C;/p&#x3E;
 					</code>
 				</p>
 
@@ -328,100 +329,83 @@
 			<aside>
 				<h2>Knapper</h2>
 				<hr>
-				<button class= "anButton">Anmeldser</button><br>
-				<button class= "meButton">Menu</button><br>
-				<button class= "sButton">Søg</button><br>
-				<button class= "besButton">Bestil</button><br>
-				<button class= "soButton">Sortering</button><br>
-				<button class= "beButton">Bekræftelse</button><br>
-				<img src="" alt="" class="farve">
+				<button class="btn" name="Share">SHARE</button> <br>
+				<i id="pilleft"class="fas fa-chevron-left"></i><br>
+				<i id="pilright"class="fas fa-chevron-right"></i>
 			</aside>
 
 			<aside>
 				<h2>HTML</h2>
 				<hr>
+<!--Del knap-->
 				<p class="code">
 					<code class="center flex">
-						&#x9;background-color: #AF8447;
-						&#x9;height: 30px;
-						&#x9;width: 150px;
-						&#x9;border-radius: 30px;
+						&#x3C;button class=&#x22;btn&#x22; name=&#x22;SHARE&#x22;&#x3E;Share&#x3C;/button&#x3E;
 					</code>
 				</p>
 
+<!-- Venstre pilhoved-->
 				<p class="code">
 					<code class="center flex">
-						&#x9;background-color: #AF8447;
-						&#x9;height: 50px;
-						&#x9;width: 100px;
+						&#x3C;i id=&#x22;pilleft&#x22; class=&#x22;fas fa-chevron-left&#x22;&#x3E;&#x3C;/i&#x3E;
 					</code>
 				</p>
 
+<!-- Højre pilhoved-->
 				<p class="code">
 					<code class="center flex">
-						&#x9;background-color: #AF8447;
-						&#x9;height: 50px;
-						&#x9;width: 50px;
-						&#x9;border-radius: 30px;
+						&#x3C;i id=&#x22;pilright&#x22; class=&#x22;fas fa-chevron-right&#x22;&#x3E;&#x3C;/i&#x3E;
 					</code>
 				</p>
-
-				<p class="code">
-					<code class="center flex">
-						&#x9;background-color: #AF8447;
-						&#x9;height: 70px;
-						&#x9;width: 130px;
-						&#x9;border-radius: 30px;
-					</code>
-				</p>
-
-				<p class="code">
-					<code class="center flex">
-						&#x9;background-color: #AF8447;
-						&#x9;height: 30px;
-						&#x9;width: 100px;
-						&#x9;border-radius: 30px;
-					</code>
-				</p>
-
-				<p class="code">
-					<code class="center flex">
-						&#x9;background-color: #AF8447;
-						&#x9;height: 100px;
-						&#x9;width: 200px;
-						&#x9;border-radius: 30px;
-					</code>
-				</p>
-
-
 			</aside>
 
 			<aside>
 				<h2>CSS</h2>
 				<hr>
 
-
+<!-- Del knap-->
 				<p class="code">
 					<code class="center flex">
-
+						<br><br><br><br><br><br><br>
+						.btn{ <br>
+						  color: #fff;<br>
+						  font-family: "roboto condenced";<br>
+						  font-size: 26px;<br>
+						  background-color: #14b555;<br>
+						  height: 70px;<br>
+						  width: 130px;<br>
+						  border-radius: 30px;<br>
+						  border: 0px;<br>
+							margin-bottom: 20px;<br>
+						}<br>
 					</code>
-				</p>
 
-
+<!-- Venste pilhovede-->
+				<p class="code">
+					<code class="center flex">
+						#pilleft{<br>
+						  font-size: 70px;<br>
+							margin-bottom: 20px;<br>
+						}
+					</code>
+<!--Højre pilhoved-->
+				<p class="code">
+					<code class="center flex">
+						#pilright{<br>
+						  font-size: 70px;<br>
+						}
+						</code>
 			</aside>
 		</article>
 		<footer>
 			<p>
-				Sådan skal det bruges:
+				Sådan skal det bruges:Knapperne skal bruges som share knapper for at dele siden. I pilehoveder skal bruges til at skifte billede i vores billedegalleri.
 			</p>
 
 		</footer>
 	</section>
 <!-- Btn section slut-->
 
-<button class="btn" name="Share">SHARE</button>
-<i id="pilleft"class="fas fa-chevron-left"></i>
-<i id="pilright"class="fas fa-chevron-right"></i>
 
 </body>
 </html>

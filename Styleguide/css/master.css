@@ -218,58 +218,7 @@ footer{
 	align-items: center;
 }
 
-.anButton{
-	background-color: #AF8447;
-	height: 30px;
-	width: 150px;
-	border: black;
-	border-radius: 30px;
-	margin-bottom: 30px;
-}
 
-.meButton{
-	background-color: #AF8447;
-	height: 50px;
-	width: 100px;
-	border: black;
-	margin-bottom: 30px;
-}
-
-.sButton{
-	background-color: #AF8447;
-	height: 50px;
-	width: 50px;
-	border: black;
-	border-radius: 30px;
-	margin-bottom: 30px;
-}
-
-.besButton{
-	background-color: #AF8447;
-	height: 70px;
-	width: 130px;
-	border: black;
-	margin-bottom: 30px;
-	border-radius: 30px;
-}
-
-.soButton{
-	background-color: #AF8447;
-	height: 30px;
-	width: 100px;
-	border: black;
-	margin-bottom: 30px;
-	border-radius: 30px;
-}
-
-.beButton{
-	background-color: #AF8447;
-	height: 100px;
-	width: 200px;
-	border: black;
-	margin-bottom: 30px;
-	border-radius: 30px;
-}
 
 .btn{
   color: #fff;
@@ -280,10 +229,14 @@ footer{
   width: 130px;
   border-radius: 30px;
   border: 0px;
+	margin-bottom: 20px;
 }
+
 #pilleft{
   font-size: 70px;
+	margin-bottom: 20px;
 }
+
 #pilright{
   font-size: 70px;
 }
