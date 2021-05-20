@@ -180,10 +180,22 @@ footer{
 }
 
 .icon{
-	font-size: 70px;
-	height: 70px;
-	width: 70px;
-	margin-bottom: 20px;
+  font-size: 65px;
+  height: 65px;
+  width: 65px;
+  margin-bottom: 20px;
+}
+
+#fb-icon{
+  color: #0c6ee6;
+}
+
+#mail-icon{
+  color: #1c8bf2;
+}
+
+#phone-icon{
+  color: #5cee51;
 }
 
 
