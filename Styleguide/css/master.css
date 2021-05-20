@@ -270,3 +270,20 @@ footer{
 	margin-bottom: 30px;
 	border-radius: 30px;
 }
+
+.btn{
+  color: #fff;
+  font-family: "roboto condenced";
+  font-size: 26px;
+  background-color: #14b555;
+  height: 70px;
+  width: 130px;
+  border-radius: 30px;
+  border: 0px;
+}
+#pilleft{
+  font-size: 70px;
+}
+#pilright{
+  font-size: 70px;
+}
