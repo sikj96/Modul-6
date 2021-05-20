@@ -94,6 +94,8 @@ article{
 
 aside{
 	width: 400px;
+	margin-left: 50px;
+	margin-right: 20px;
 }
 
 h2{
@@ -122,13 +124,13 @@ footer{
 
 .code{
 	display: flex;
-
 	width: 400px;
 	background-color: #eee;
-	min-height: 70px;
+	height: 70px;
 	border-radius: 4px;
 	padding: 10px 20px;
 	margin-bottom: 20px;
+	overflow: scroll;
 }
 
 .logo-img{
