@@ -133,6 +133,7 @@ footer{
 	overflow: scroll;
 }
 
+/*Logo start*/
 .logo-img{
 	display: block;
 	height: 100px;
@@ -144,25 +145,18 @@ footer{
 	background-image: url(../img/logo-med-text.png);
 	background-repeat: no-repeat;
 }
+/*Logo slut*/
 
+/*Farver start*/
 .farve1{
 	height: 70px;
 	width: 400px;
 	margin-bottom: 20px;
 	border-radius: 4px;
-	background-color: #14b555;
+	background-color: #00B800;
 }
 
 .farve2{
-	height: 70px;
-	width: 400px;
-	margin-bottom: 20px;
-	border-radius: 4px;
-
-	background: #c7a892;
-}
-
-.farve3{
 	height: 70px;
 	width: 400px;
 	margin-bottom: 20px;
@@ -171,15 +165,16 @@ footer{
 	background: #fff;
 }
 
-.farve4{
+.farve3{
 	height: 70px;
 	width: 400px;
 	margin-bottom: 20px;
 	border-radius: 4px;
-
-	background: #000e05;
+	background: #313331;
 }
+/*Farver slut*/
 
+/*Icon start*/
 .icon{
   font-size: 65px;
   height: 65px;
@@ -195,11 +190,33 @@ footer{
   color: #1c8bf2;
 }
 
-#phone-icon{
-  color: #5cee51;
+#linkedIn-icon{
+  color: #4376b1;
+}
+/*Icon slut*/
+
+/* Knap start*/
+.btn{
+  color: #fff;
+  font-family: "roboto condenced";
+  font-size: 26px;
+  background-color: #00B800;;
+  height: 70px;
+  width: 130px;
+  border-radius: 30px;
+  border: 0px;
+	margin-bottom: 20px;
 }
 
+#pilleft{
+  font-size: 70px;
+	margin-bottom: 20px;
+}
 
+#pilright{
+  font-size: 70px;
+}
+/*Knap slut*/
 
 .flex{
 	display: flex;
@@ -216,27 +233,4 @@ footer{
 
 .vcenter{
 	align-items: center;
-}
-
-
-
-.btn{
-  color: #fff;
-  font-family: "roboto condenced";
-  font-size: 26px;
-  background-color: #14b555;
-  height: 70px;
-  width: 130px;
-  border-radius: 30px;
-  border: 0px;
-	margin-bottom: 20px;
-}
-
-#pilleft{
-  font-size: 70px;
-	margin-bottom: 20px;
-}
-
-#pilright{
-  font-size: 70px;
 }
