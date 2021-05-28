@@ -1,10 +1,9 @@
-//af Sebastian
 console.log('video koden er inde');
 //elementer//
 const video = document.getElementById('video');
 const btnPlay = document.getElementById('btnPlay');
 const btnStop = document.getElementById('btnStop');
-const tid = document.getElementById('tid');
+const btnNext = document.getElementById('btnNext');
 const slider = document.getElementById('slider')
 const nuTid = document.getElementById('nuTid')
 const slutTid = document.getElementById('slutTid')
@@ -15,15 +14,15 @@ const slutTid = document.getElementById('slutTid')
 btnPlay.addEventListener('click', start);
 btnStop.addEventListener('click', stop);
 btnNext.addEventListener('click', next)
-slider.addEventListener('change', leangde);
+slider.addEventListener('change', bar);
 video.addEventListener('ended', end);
 video.addEventListener('timeupdate', afspil);
 
 //videoer//
 
-const vids = ["clean.mp4","Temperatur stigning.mp4","presicion.mp4","Nedkoeler.mp4", "90grader.mp4"];
-for (let i = 0; i < vids.length; i++) {
-  console.log(vids[i])
+const myVids = ["clean.mp4","Temperatur stigning.mp4","presicion.mp4","Nedkoeler.mp4", "90grader.mp4"];
+for (let i = 0; i < myVids.length; i++) {
+  console.log(myVids[i])
 }
 let vidsPlaying = 0;
 
@@ -45,22 +44,20 @@ function stop() {
 }
 
 function end() {
-  clearInterval(nuTid);
-  nuTid.innerHTML = "0";
   next();
   start();
 }
 
 function next() {
-  if(vidsPlaying < vids.length) {
+  if(vidsPlaying < 4) {
     vidsPlaying++;
   } else {
     vidsPlaying = 0;
   }
-  video.src = "video/" + vids[vidsPlaying];
+  video.src = "video/" + myVids[vidsPlaying];
 }
 
-function leangde() {
+function bar() {
   let soe = video.duration * (slider.value / 100);
   video.currentTime = soe;
 }
