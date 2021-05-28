@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Header</title>
     <script src="js/header.js" defer></script>
+    <script src="js/videos.js" defer></script>
+    <script src="https://kit.fontawesome.com/9464e3997a.js" crossorigin="anonymous" defer></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
   </head>
@@ -67,6 +69,25 @@
         <label for="radio4" class="manual-btn"onclick="count();"></label>
       </div>
       <!--manual navigation end-->
+    </div>
+
+    <div id="container" class="indhold">
+     <video width="426" height="240" class="video" id="video">
+      <source src="video/clean.mp4" type="video/mp4">
+     </video>
+     <aside>
+      <h2>NORQi's Revolutionere Kipgryder</h2>
+      <p>Med kipgryderne fra NORQi, tilbydes en helt ny løsning når det kommer til at optimere dit storkøkken.</p>
+      <p>Med NORQi's induktions teknologi kan du få lavet mad hurtigt og effektivt</p>
+      <p>Gryden er nem at justere på og håntere, den bruger kun det nødvendige energi som muligt, så maden brænder ikke på og er mere miljøvenlig. </p>
+     </aside>
+     <div id="controls" class="controls">
+      <button type="button" title="play/pause" class="knap" id="btnPlay" name="afspil"><i class="fas fa-play" id="icon"></i></button>
+      <button type="button" title="stop" class="knap" id="btnStop" name="stop"><i class="fas fa-stop"></i></button>
+      <button type="button" title="næste" class="knap" id="btnNext" name="neaste"><i class="fas fa-step-forward"></i></button>
+      <input id="slider" class="slider" type="range" min="0" max="100" value="0" step="1">
+      <span id="nuTid" class="tid"></span> / <span id="slutTid" class="tid"></span>
+     </div>
     </div>
     <footer>
       <div class="footer-container">

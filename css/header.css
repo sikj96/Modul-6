@@ -232,8 +232,8 @@ aside{
 }
 
 .slide img{
-  width: 100%;
-  height: 85%;
+  width: 1200px;
+  height: 700px;
 }
 .img2 {
   height: 15%;
@@ -292,6 +292,70 @@ aside{
   text-align: center;
   padding: 5px 0px;
 }
+
+/*Video*/
+.knap {
+  color: #fff;
+  background-color: #14b555;
+  height: 35px;
+  width: 65px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 0px;
+  margin-bottom: 20px;
+  box-shadow: 0 5px #999;
+  cursor: pointer;
+}
+
+.knap:hover {
+  background-color: #0d6b33;
+}
+.knap:active {
+    background-color: #0d6b33;
+    box-shadow: 0 3px #666;
+    transform: translateY(2px);
+  }
+
+.video {
+  padding:5px;
+}
+
+aside {
+  width: 400px;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  border: 2px solid rgb(0, 184, 0);
+}
+
+.indhold {
+  width: 1000px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.controls {
+  width: 50%;
+}
+
+h2 {
+font-size: 30px;
+font-family: "Roboto Condensed";
+font-weight: bold;
+color: #000e05;
+}
+
+p {
+font-size: 16px;
+font-family: "Quicksand";
+color: #000e05;
+}
+
+.tid {
+    color: #14b555;
+    font-family: "Roboto Condensed";
+    font-weight: bold;
+}
+
 /*Footer Start*/
 footer{
   background-color: #00B800;
