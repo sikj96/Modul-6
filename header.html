@@ -25,6 +25,7 @@
         <li>
           <a href="https://norqi.wp.side-walk.dk">NORQi's hjemmeside</a>
         </li>
+        
       </ul>
 
       <div class="burger">
@@ -75,7 +76,7 @@
     <!-- Slide slut-->
 
     <!-- Video start-->
-    <div id="container" class="indhold">
+    <div class="indhold">
      <video width="426" height="240" class="video" id="video">
       <source src="video/clean.mp4" type="video/mp4">
      </video>
@@ -95,6 +96,50 @@
     </div>
     <!-- Video slut-->
 
+    <!--Knap start-->
+    <div id="share"> <!--start share knappen div-->
+    <button class="shareknap" id="shareknap">SHARE</button> <!--selve shareknappen-->
+    </div> <!--slut share knappen div-->
+
+    <div class="delpa" id="delpa"> <!--start på share pop up box-->
+            <button class="exit" id="exit">EXIT</button> <!--exit knap på share pop up box-->
+        <div class="nul"> <!--start på div hidden text, for at placere exit knappen rigtigt-->
+            <p>nul</p> <!--hidden text-->
+        </div> <!--slut på div hidden text, for at placere exit knappen rigtigt-->
+        <div class="title"><!--start på div DEL PÅ titlen i share pop up box-->
+            <p class="pdelpa">DEL PÅ</p> <!--text DEL PÅ-->
+        </div> <!--start på div DEL PÅ titlen i share pop up box-->
+
+    <button class="Facebook" id="Facebook" onclick="window.open('https://www.facebook.com/', '_blank'); return false;"><i id="facebook-icon" class="fab fa-facebook-square icon"></i></button>
+    <!--facebook del knappen, onclick åbnes facebook i andet vindue, facebook iconet <i> class name connected til icons images i head-->
+    <button class="Linkdl" id="Linkdl" onclick="window.open('https://www.linkedin.com/feed/', '_blank'); return false;"><i id="linkdl-icon" class="fab fa-linkedin icon"></i></button>
+    <!--Linkdl del knappen, onclick åbnes Linkdl i andet vindue, Linkdl iconet,<i> class name connected til icons images i head-->
+    <button class="Mail" id="Mail" onclick="window.open('https://www.gmail.com/', '_blank'); return false;"><i id="mail-icon" class="fas fa-envelope-square icon"></i></button>
+    <!--Mail del knappen, onclick åbnes Mail i andet vindue, Mail iconet,<i> class name connected til icons images i head-->
+    <button class="Copy" id="Copy" onclick="myFunction()"><i id="link-icon" class="fas fa-link icon"></i></button>
+    <!--Copy knap, onclick my function connected til javascript, <i> class name connected til icons images i head-->
+    <input type="text" value="https://www.google.dk/" id="myInput"> <!--URL der kopieres inde på javascript-->
+
+      <div id='container'> <!--start div til if-else-->
+        <p class="p1">Kunne du lide denne side?</p> <!--text til if-else ide-->
+        <button id='yes'>YES</button> <!--ja knap til if-else ide-->
+        <button id='no'>NO</button> <!--nej knap til if-else ide-->
+      </div> <!--slut div til if-else-->
+
+    </div> <!--slut på share pop up box-->
+
+    <div class="loops"> <!--start på loop idea div, class til styling-->
+
+    <!--loop idea html links-->
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+    <a href="#">Link 4</a>
+    <a href="#">Link 5</a>
+    <a href="#">Link 6</a>
+
+    </div> <!--slut på loop idea div-->
+    <!-- Slut knap-->
     <footer>
       <div class="footer-container">
         <h2>Kontakt NORQi</h2>
