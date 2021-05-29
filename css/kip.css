@@ -609,7 +609,7 @@ color: #000e05;
 @media(max-width:1080px){
 .shareknap{
     position:absolute;
-    bottom: -950px;
+    bottom: -1000px;
     margin-left: 400px;
   }
 }
