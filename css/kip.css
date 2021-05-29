@@ -403,7 +403,7 @@ color: #000e05;
 @media(max-width:768px){
   aside{
     position:absolute;
-    bottom: -875px;
+    bottom: -900px;
   }
 
   .indhold{
